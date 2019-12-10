@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_landing.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_landing.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_vertical_flow.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_vertical_flow.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_image_filter.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_image_filter.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_flow_state.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/view_flow_state.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_motion_layout_on_click.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_on_click.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_motion_layout_on_swipe.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_on_swipe.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_motion_layout_view_holder.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_view_holder.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_number.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/view_number.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_simple_viewholder.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/view_simple_viewholder.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_diff_util.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_diff_util.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_layer.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_layer.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_horizontal_flow.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_horizontal_flow.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_motion_layout.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_custom_helper.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_custom_helper.xml"
+    }
+]

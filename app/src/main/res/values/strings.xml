@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConstraintLayout 2.0 Test</string>
+    <string name="gatsby_first_line">\'In my younger and more vulnerable years my father gave me some advice that I\'ve been turning over in my mind ever since.\n\n Whenever you feel like criticizing anyone, he told me, just remember that all the people in this world haven\'t had the advantages that you\'ve had.\'</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

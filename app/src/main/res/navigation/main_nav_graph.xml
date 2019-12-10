@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/landingFragment">
+
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.LandingFragment"
+        android:label="LandingFragment" >
+        <action
+            android:id="@+id/landing_to_horizontalFlow"
+            app:destination="@id/horizontalFlowFragment" />
+        <action
+            android:id="@+id/landing_to_verticalFlow"
+            app:destination="@id/verticalFlowFragment" />
+        <action
+            android:id="@+id/landing_to_layer"
+            app:destination="@id/layerFragment"
+            app:launchSingleTop="false" />
+        <action
+            android:id="@+id/landing_to_customHelper"
+            app:destination="@id/customHelperFragment"
+            app:launchSingleTop="false" />
+        <action
+            android:id="@+id/landing_to_imageFilter"
+            app:destination="@id/imageFilterFragment" />
+        <action
+            android:id="@+id/landing_to_motionLayout"
+            app:destination="@id/motionLayoutFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/horizontalFlowFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.flow.HorizontalFlowFragment"
+        android:label="HorizontalFlowFragment" />
+    <fragment
+        android:id="@+id/verticalFlowFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.flow.VerticalFlowFragment"
+        android:label="VerticalFlowFragment" />
+    <fragment
+        android:id="@+id/layerFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.LayerFragment"
+        android:label="LayerFragment" />
+    <fragment
+        android:id="@+id/imageFilterFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.ImageFilterFragment"
+        android:label="ImageFilterFragment" />
+    <fragment
+        android:id="@+id/customHelperFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.CustomHelperFragment"
+        android:label="CustomHelperFragment" />
+    <fragment
+        android:id="@+id/motionLayoutFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.motionlayout.MotionLayoutFragment"
+        android:label="MotionLayoutFragment" >
+        <action
+            android:id="@+id/motionLayout_to_motionLayoutOnClick"
+            app:destination="@id/motionLayoutOnClickFragment" />
+        <action
+            android:id="@+id/motionLayout_to_motionLayoutOnSwipe"
+            app:destination="@id/motionLayoutOnSwipeFragment" />
+        <action
+            android:id="@+id/motionLayout_to_motionLayoutViewHolder"
+            app:destination="@id/motionLayoutViewHolderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/motionLayoutOnClickFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.motionlayout.MotionLayoutOnClickFragment"
+        android:label="fragment_motion_layout_on_click"
+        tools:layout="@layout/fragment_motion_layout_on_click" />
+    <fragment
+        android:id="@+id/motionLayoutOnSwipeFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.motionlayout.MotionLayoutOnSwipeFragment"
+        android:label="fragment_motion_layout_on_swipe"
+        tools:layout="@layout/fragment_motion_layout_on_swipe" />
+    <fragment
+        android:id="@+id/motionLayoutViewHolderFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.MotionLayoutViewHolderFragment"
+        android:label="fragment_motion_layout_view_holder"
+        tools:layout="@layout/fragment_motion_layout_view_holder" />
+</navigation>

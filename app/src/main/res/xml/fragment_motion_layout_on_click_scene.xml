@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="3000">
+        <KeyFrameSet>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="11"
+                motion:curveFit="linear"
+                motion:percentX="1"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="22"
+                motion:curveFit="linear"
+                motion:percentX="0"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="33"
+                motion:curveFit="linear"
+                motion:percentX="1"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="44"
+                motion:curveFit="linear"
+                motion:percentX="0"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="55"
+                motion:curveFit="linear"
+                motion:percentX="1"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="66"
+                motion:curveFit="linear"
+                motion:percentX="0"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="77"
+                motion:curveFit="linear"
+                motion:percentX="1"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="88"
+                motion:curveFit="linear"
+                motion:percentX="0"/>
+            <KeyPosition
+                motion:motionTarget="@id/sanic"
+                motion:framePosition="99"
+                motion:curveFit="linear"
+                motion:percentX="1"/>
+            <KeyAttribute
+                android:alpha="0"
+                android:rotation="0"
+                motion:framePosition="90"
+                motion:motionTarget="@+id/sonic_teeth" />
+        </KeyFrameSet>
+        <OnClick
+            motion:targetId="@+id/sanic"
+            motion:clickAction="toggle"/>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/sanic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"/>
+        <Constraint
+            android:id="@+id/sonic_teeth"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:alpha="0"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/sanic"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"/>
+        <Constraint
+            android:id="@+id/sonic_teeth"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:alpha="1"
+            android:rotation="1080"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+</MotionScene>

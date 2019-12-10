@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motion_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_motion_layout_scene">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/progress_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:text="Test"
+        tools:text="Test text"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/on_click_button"
+        android:text="On Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/on_swipe_button"
+        android:text="On Swipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MotionLayout ViewHolder" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KeyCycles" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

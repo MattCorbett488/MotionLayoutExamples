@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/xml_fragment_motion_layout_scene.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/xml/fragment_motion_layout_scene.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_vertical_flow.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_vertical_flow.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_layer.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_layer.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable_mario.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable/mario.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_motion_layout_on_swipe.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_on_swipe.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_landing.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_landing.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_image_filter.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_image_filter.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_custom_helper.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_custom_helper.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_motion_layout_on_click.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_on_click.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/color_button_checked.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/color/button_checked.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_view_flow_state.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/view_flow_state.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/navigation_main_nav_graph.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/navigation/main_nav_graph.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable_spiked_ball.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable/spiked_ball.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/xml_fragment_motion_layout_on_click_scene.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/xml/fragment_motion_layout_on_click_scene.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_motion_layout.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_motion_layout_view_holder.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_view_holder.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable_confused_cat.jpg.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable/confused_cat.jpg"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_diff_util.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_diff_util.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_view_number.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/view_number.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable_sonic_teeth.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable/sonic_teeth.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable_woman_screaming_cat.jpg.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable/woman_screaming_cat.jpg"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable_sanic.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable/sanic.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_fragment_horizontal_flow.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_horizontal_flow.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/xml_view_simple_viewholder_scene.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/xml/view_simple_viewholder_scene.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/xml_fragment_motion_layout_on_swipe_scene.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/xml/fragment_motion_layout_on_swipe_scene.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/layout_view_simple_viewholder.xml.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/view_simple_viewholder.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

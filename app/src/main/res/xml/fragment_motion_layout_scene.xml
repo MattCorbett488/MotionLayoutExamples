@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        android:id="@+id/enter"
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="3000">
+        <KeyFrameSet>
+            <KeyAttribute
+                motion:framePosition="90"
+                motion:motionTarget="@+id/on_click_button">
+                <CustomAttribute
+                    motion:attributeName="textColor"
+                    motion:customColorValue="@android:color/transparent" />
+            </KeyAttribute>
+            <KeyAttribute
+                motion:framePosition="90"
+                motion:motionTarget="@+id/on_swipe_button">
+                <CustomAttribute
+                    motion:attributeName="textColor"
+                    motion:customColorValue="@android:color/transparent" />
+            </KeyAttribute>
+            <KeyAttribute
+                motion:framePosition="90"
+                motion:motionTarget="@+id/viewholder">
+                <CustomAttribute
+                    motion:attributeName="textColor"
+                    motion:customColorValue="@android:color/transparent" />
+            </KeyAttribute>
+            <KeyAttribute
+                motion:framePosition="90"
+                motion:motionTarget="@+id/cycle">
+                <CustomAttribute
+                    motion:attributeName="textColor"
+                    motion:customColorValue="@android:color/transparent" />
+            </KeyAttribute>
+            <KeyPosition
+                motion:motionTarget="@+id/viewholder"
+                motion:percentX="0"
+                motion:percentY="-0.3"
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"/>
+            <KeyPosition
+                motion:motionTarget="@+id/on_swipe_button"
+                motion:percentX="1.5"
+                motion:framePosition="20" />
+            <KeyPosition
+                motion:motionTarget="@+id/cycle"
+                motion:percentX="1.5"
+                motion:framePosition="30" />
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint android:id="@+id/on_click_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintEnd_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/transparent" />
+        </Constraint>
+        <Constraint android:id="@+id/on_swipe_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintTop_toBottomOf="parent"
+            motion:layout_constraintStart_toEndOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/transparent" />
+        </Constraint>
+        <Constraint android:id="@+id/viewholder"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintTop_toBottomOf="parent"
+            motion:layout_constraintEnd_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/transparent" />
+        </Constraint>
+        <Constraint android:id="@+id/cycle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toStartOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/transparent" />
+        </Constraint>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint android:id="@+id/on_click_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toTopOf="@+id/on_swipe_button">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint android:id="@+id/on_swipe_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/on_click_button"
+            motion:layout_constraintBottom_toTopOf="@+id/viewholder" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint android:id="@+id/viewholder"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/on_swipe_button"
+            motion:layout_constraintBottom_toTopOf="@+id/cycle" >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+        <Constraint android:id="@+id/cycle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            motion:transitionEasing="decelerate"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/viewholder"
+            motion:layout_constraintBottom_toBottomOf="parent">
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@android:color/white" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

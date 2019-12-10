@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/image_filter_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:altSrc="@drawable/confused_cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/woman_screaming_cat" />
+
+    <!-- SATURATION -->
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/saturation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturation"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_filter_view" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/grayscale_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grayscale"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/saturation_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hyper_saturation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hyper Saturated"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/saturation_text" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/saturation_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saturation_text" />
+
+    <!-- BRIGHTNESS -->
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/brightness_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brightness"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saturation_seekbar" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/black_brightness_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/brightness_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/twice_bright_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2X Bright"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/brightness_text" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/brightness_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/brightness_text" />
+
+    <!-- WARMTH -->
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/warmth_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warmth"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/brightness_seekbar" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/cold_warmth_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cold"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/warmth_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hot_warmth_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/warmth_text" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/warmth_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/warmth_text" />
+
+    <!-- CONTRAST -->
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/contrast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contrast"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/warmth_seekbar" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/gray_contrast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gray"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/contrast_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/high_contrast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Contrast"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/contrast_text" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/contrast_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contrast_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/round_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Round / RoundPercent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contrast_seekbar" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/round_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        app:checkedButton="@+id/less_round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/round_text">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/less_round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_checked"
+            android:text="Less round" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_checked"
+            android:text="Round" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

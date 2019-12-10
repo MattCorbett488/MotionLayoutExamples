@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="flow_view_width">80dp</dimen>
+    <dimen name="flow_view_height">60dp</dimen>
+    <dimen name="flow_small_gap">8dp</dimen>
+    <dimen name="flow_medium_gap">16dp</dimen>
+    <dimen name="flow_large_gap">32dp</dimen>
+
+    <integer name="small_max_elements">3</integer>
+    <integer name="medium_max_elements">4</integer>
+    <integer name="large_max_elements">5</integer>
+
+    <dimen name="round">16dp</dimen>
+</resources>

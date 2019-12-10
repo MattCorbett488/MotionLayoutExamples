@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/max_elements_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max # Per Row"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/max_elements_toggle_group"/>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/max_elements_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/vertical_bias_label">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/small_max_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/medium_max_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/large_max_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/vertical_bias_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertical Bias"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/vertical_bias_toggle_group" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/vertical_bias_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/vertical_gap_label">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/no_vertical_bias_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fifty_vertical_bias_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetLeft="8dp"
+            android:insetRight="8dp"
+            android:text="50%" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/full_vertical_bias_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/vertical_gap_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertical Gap"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/vertical_gap_toggle_group"/>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/vertical_gap_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/vertical_style_label">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/no_gap_vertical_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/small_gap_vertical_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8dp"
+            android:insetRight="8dp"
+            android:insetLeft="8dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/medium_gap_vertical_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16dp"
+            android:insetRight="8dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/large_gap_vertical_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_checked"
+            android:text="32dp" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/vertical_style_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertical Style"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/vertical_style_toggle_group"/>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/vertical_style_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_bias_label">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/spread_vertical_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spread" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/spread_inside_vertical_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spread Inside"
+            android:insetRight="8dp"
+            android:insetLeft="8dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/packed_vertical_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_checked"
+            android:text="Packed" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/horizontal_bias_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Bias"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_bias_toggle_group" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/horizontal_bias_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_gap_label">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/no_horizontal_bias_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fifty_horizontal_bias_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetLeft="8dp"
+            android:insetRight="8dp"
+            android:text="50%" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/full_horizontal_bias_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/horizontal_gap_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Gap"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_gap_toggle_group"/>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/horizontal_gap_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_style_label">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/no_gap_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/small_gap_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8dp"
+            android:insetRight="8dp"
+            android:insetLeft="8dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/medium_gap_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16dp"
+            android:insetRight="8dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/large_gap_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_checked"
+            android:text="32dp" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/horizontal_style_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Style"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_style_toggle_group"/>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/horizontal_style_toggle_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/spread_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spread" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/spread_inside_button"
+            android:backgroundTint="@color/button_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spread Inside"
+            android:insetRight="8dp"
+            android:insetLeft="8dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/packed_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_checked"
+            android:text="Packed" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
