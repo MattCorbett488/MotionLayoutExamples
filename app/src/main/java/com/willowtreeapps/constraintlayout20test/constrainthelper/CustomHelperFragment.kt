@@ -1,4 +1,4 @@
-package com.willowtreeapps.constraintlayout20test
+package com.willowtreeapps.constraintlayout20test.constrainthelper
 
 import android.os.Bundle
 import android.view.LayoutInflater

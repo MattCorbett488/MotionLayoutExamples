@@ -1,16 +1,13 @@
-package com.willowtreeapps.constraintlayout20test
+package com.willowtreeapps.constraintlayout20test.constrainthelper
 
 import android.content.Context
 import android.util.AttributeSet
-import android.util.SparseArray
-import androidx.constraintlayout.solver.widgets.ConstraintWidget
-import androidx.constraintlayout.solver.widgets.ConstraintWidgetContainer
-import androidx.constraintlayout.solver.widgets.Helper
 import androidx.constraintlayout.widget.ConstraintHelper
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintLayout.LayoutParams
 import androidx.constraintlayout.widget.ConstraintLayout.LayoutParams.PARENT_ID
 import androidx.constraintlayout.widget.ConstraintLayout.LayoutParams.UNSET
+import com.willowtreeapps.constraintlayout20test.R
 
 class Linear @JvmOverloads constructor(
     context: Context,
@@ -19,7 +16,8 @@ class Linear @JvmOverloads constructor(
 ) :
     ConstraintHelper(context, attrs, themeId) {
 
-    var orientation = Orientation.HORIZONTAL
+    var orientation =
+        Orientation.HORIZONTAL
         set(value) {
             if (field == value) {
                 return
@@ -30,8 +28,11 @@ class Linear @JvmOverloads constructor(
 
     init {
         attrs?.let {
-            val typedArray = context.obtainStyledAttributes(attrs, R.styleable.Linear)
-            orientation = Orientation.values()[typedArray.getInt(R.styleable.Linear_orientation, 0)]
+            val typedArray = context.obtainStyledAttributes(attrs,
+                R.styleable.Linear
+            )
+            orientation = Orientation.values()[typedArray.getInt(
+                R.styleable.Linear_orientation, 0)]
 
             typedArray.recycle()
         }

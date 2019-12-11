@@ -1,19 +1,14 @@
-package com.willowtreeapps.constraintlayout20test
+package com.willowtreeapps.constraintlayout20test.constrainthelper
 
-import android.animation.Animator
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.os.Bundle
-import androidx.transition.TransitionManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.transition.AutoTransition
-import com.google.android.material.animation.AnimatorSetCompat
 import com.willowtreeapps.constraintlayout20test.databinding.FragmentLayerBinding
 import kotlin.time.ExperimentalTime
-import kotlin.time.milliseconds
 import kotlin.time.seconds
 
 class LayerFragment : Fragment() {

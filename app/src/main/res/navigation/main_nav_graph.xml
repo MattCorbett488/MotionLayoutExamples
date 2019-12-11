@@ -41,7 +41,7 @@
         android:label="VerticalFlowFragment" />
     <fragment
         android:id="@+id/layerFragment"
-        android:name="com.willowtreeapps.constraintlayout20test.LayerFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.constrainthelper.LayerFragment"
         android:label="LayerFragment" />
     <fragment
         android:id="@+id/imageFilterFragment"
@@ -49,7 +49,7 @@
         android:label="ImageFilterFragment" />
     <fragment
         android:id="@+id/customHelperFragment"
-        android:name="com.willowtreeapps.constraintlayout20test.CustomHelperFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.constrainthelper.CustomHelperFragment"
         android:label="CustomHelperFragment" />
     <fragment
         android:id="@+id/motionLayoutFragment"

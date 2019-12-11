@@ -19,22 +19,31 @@
                motion:motionTarget="@+id/whoosh_button" />
            <KeyTimeCycle
                motion:framePosition="50"
-               motion:waveShape="sin"
+               motion:waveShape="triangle"
                motion:wavePeriod="1"
                android:scaleX="2"
                android:scaleY="2"
-               motion:motionTarget="@+id/whoosh_button" />
+               motion:motionTarget="@+id/boomp_button" />
        </KeyFrameSet>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
         <Constraint
+            android:id="@+id/boomp_button">
+            <Layout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="64dp"
+                motion:layout_constraintTop_toTopOf="parent"
+                motion:layout_constraintStart_toStartOf="parent"/>
+        </Constraint>
+        <Constraint
             android:id="@+id/whoosh_button">
             <Layout
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:layout_marginEnd="32dp"
                 motion:layout_constraintTop_toTopOf="parent"
-                motion:layout_constraintStart_toStartOf="parent"
                 motion:layout_constraintEnd_toEndOf="parent"/>
         </Constraint>
     </ConstraintSet>
@@ -45,9 +54,9 @@
             <Layout
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:layout_marginEnd="32dp"
                 motion:layout_constraintBottom_toBottomOf="parent"
-                motion:layout_constraintStart_toStartOf="parent"
-                motion:layout_constraintEnd_toEndOf="parent" />
+                motion:layout_constraintEnd_toEndOf="parent"/>
         </Constraint>
     </ConstraintSet>
 </MotionScene>

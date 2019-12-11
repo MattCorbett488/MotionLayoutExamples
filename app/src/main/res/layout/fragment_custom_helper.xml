@@ -24,7 +24,7 @@
         android:layout_height="80dp"
         android:background="@android:color/holo_blue_light" />
 
-    <com.willowtreeapps.constraintlayout20test.Linear
+    <com.willowtreeapps.constraintlayout20test.constrainthelper.Linear
         android:id="@+id/linear_helper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

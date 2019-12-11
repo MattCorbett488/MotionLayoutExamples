@@ -6,10 +6,16 @@
     app:layoutDescription="@xml/fragment_keycycle_scene">
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/boomp_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Boomp" />
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/whoosh_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:text="Whoosh" />
 </androidx.constraintlayout.motion.widget.MotionLayout>

@@ -1683,6 +1683,7 @@ id baseline
 id beginning
 id black_brightness_text
 id blocking
+id boomp_button
 id bottom
 id bounce
 id brightness_seekbar
