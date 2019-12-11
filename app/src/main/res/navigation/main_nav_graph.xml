@@ -64,6 +64,9 @@
         <action
             android:id="@+id/motionLayout_to_motionLayoutViewHolder"
             app:destination="@id/motionLayoutViewHolderFragment" />
+        <action
+            android:id="@+id/motionLayout_to_keyCycle"
+            app:destination="@id/motionLayoutKeyCycleFragment" />
     </fragment>
     <fragment
         android:id="@+id/motionLayoutOnClickFragment"
@@ -77,7 +80,11 @@
         tools:layout="@layout/fragment_motion_layout_on_swipe" />
     <fragment
         android:id="@+id/motionLayoutViewHolderFragment"
-        android:name="com.willowtreeapps.constraintlayout20test.MotionLayoutViewHolderFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.motionlayout.MotionLayoutViewHolderFragment"
         android:label="fragment_motion_layout_view_holder"
         tools:layout="@layout/fragment_motion_layout_view_holder" />
+    <fragment
+        android:id="@+id/motionLayoutKeyCycleFragment"
+        android:name="com.willowtreeapps.constraintlayout20test.motionlayout.MotionLayoutKeyCycleFragment"
+        android:label="MotionLayoutKeyCycleFragment" />
 </navigation>

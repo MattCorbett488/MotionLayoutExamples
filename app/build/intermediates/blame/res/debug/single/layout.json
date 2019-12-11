@@ -20,16 +20,20 @@
         "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_on_click.xml"
     },
     {
-        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_motion_layout_on_swipe.xml",
-        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_on_swipe.xml"
-    },
-    {
         "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_motion_layout_on_swipe.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_on_swipe.xml"
+    },
+    {
         "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_motion_layout_view_holder.xml",
         "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_motion_layout_view_holder.xml"
+    },
+    {
+        "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_keycycle.xml",
+        "source": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/src/main/res/layout/fragment_keycycle.xml"
     },
     {
         "merged": "/Users/matthewcorbet/projects/ConstraintLayout20Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_number.xml",

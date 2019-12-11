@@ -15,7 +15,7 @@ class MotionLayoutFragmentDirections private constructor() {
         fun motionLayoutToMotionLayoutViewHolder(): NavDirections =
                 ActionOnlyNavDirections(R.id.motionLayout_to_motionLayoutViewHolder)
 
-        fun motionLayoutToDiffUtil(): NavDirections =
-                ActionOnlyNavDirections(R.id.motionLayout_to_diffUtil)
+        fun motionLayoutToKeyCycle(): NavDirections =
+                ActionOnlyNavDirections(R.id.motionLayout_to_keyCycle)
     }
 }

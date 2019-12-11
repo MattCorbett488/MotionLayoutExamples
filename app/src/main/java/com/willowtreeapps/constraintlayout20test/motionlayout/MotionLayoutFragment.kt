@@ -28,7 +28,7 @@ class MotionLayoutFragment : Fragment() {
         binding.onSwipeButton.setOnClickListener { findNavController().navigate(R.id.motionLayout_to_motionLayoutOnSwipe) }
         binding.viewholder.setOnClickListener { findNavController().navigate(R.id.motionLayout_to_motionLayoutViewHolder) }
 
-        binding.cycle.setOnClickListener { /* findNavController().navigate(R.id.motionLayout_to_motionLayoutKeyCycle) */ }
+        binding.cycle.setOnClickListener {  findNavController().navigate(R.id.motionLayout_to_keyCycle)  }
 
         binding.motionLayoutRoot.setTransitionListener(transitionListener)
     }
