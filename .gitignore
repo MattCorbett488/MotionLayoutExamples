@@ -19,7 +19,7 @@ out/
 # Gradle files
 .gradle/
 build/
-app/build
+app/build/
 .externalNativeBuild
 
 # Local configuration file (sdk path, etc)
